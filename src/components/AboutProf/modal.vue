@@ -90,6 +90,27 @@
     color: #555;
   }
   }
+
+           @media screen and (max-width: 500px){
+
+    .icon-container {
+    width: 50px;
+    height: 35px;
+  }
+
+  
+        }
+   @media screen and (max-width: 400px){
+
+    .icon-container {
+    width: 60px;
+    height: 35px;
+  }
+
+  
+        }
+        
+
 </style>
 
 <template>

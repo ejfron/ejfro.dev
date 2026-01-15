@@ -45,7 +45,7 @@ const router = createRouter({
       return {
         el: to.hash,
         behavior: 'smooth',
-        top: 20 
+        top: 80 
       }
     }
     
@@ -58,7 +58,7 @@ const router = createRouter({
             resolve({
               el: to.meta.scrollTo,
               behavior: 'smooth',
-              top: 20 
+              top: 80 
             })
           } else {
             resolve({ left: 0, top: 0 })

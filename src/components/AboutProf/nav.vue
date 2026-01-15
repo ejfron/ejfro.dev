@@ -36,10 +36,10 @@ export default {
     // Fixed: route mapping
     const setActiveNavFromRoute = () => {
       const routeMap = {
-        '/': '/about', // Fixed: from '' to 'about'
-        '/resume': '/resume', 
-        '/works': '/works',
-        '/contact': '/contact'
+        '/': 'about', // Fixed: from '' to 'about'
+        '/resume': 'resume', 
+        '/works': 'works',
+        '/contact': 'contact'
       }
       activeNav.value = routeMap[route.path] || 'about'
     }

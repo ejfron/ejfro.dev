@@ -164,7 +164,7 @@ export default {
       if (isSmallScreen.value) {
         isBottomNavOpen.value = false
         
-        router.push('/')
+        router.push('/profCard')
         
         setTimeout(() => {
           const element = document.querySelector('#profCard')
@@ -279,6 +279,7 @@ background-color: var(--bg-color);/* Changed from #fff */
 .bottom-navi.active {
   top: 0;
   opacity: 1;
+   display: flex;
 }
 .logo{
 
@@ -425,7 +426,7 @@ padding: 0.5rem 0rem; }
 
 
    .bottom-navi{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: row;

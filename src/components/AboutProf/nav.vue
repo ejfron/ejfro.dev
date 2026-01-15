@@ -10,7 +10,7 @@ export default {
   },
   setup() {
     const isDark = ref(false)
-    const isSmallScreen = ref(window.innerWidth <= 780) // Fixed: changed to 780
+    const isSmallScreen = ref(window.innerWidth <= 1380) 
     const isBottomNavOpen = ref(false)
     const activeNav = ref('about')
     const router = useRouter()
